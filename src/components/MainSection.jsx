@@ -5,3 +5,5 @@ function MainSection() {
     </main>
   )
 }
+
+export default MainSection;
