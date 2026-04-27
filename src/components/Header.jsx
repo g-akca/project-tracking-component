@@ -1,7 +1,11 @@
+import logo from "/images/logo.svg";
+import hamburgerIcon from "/images/icon-hamburger.svg";
+
 function Header() {
   return (
-    <header>
-
+    <header className="px-8 flex justify-between items-center">
+      <img src={logo} alt="Logo image" className="h-6" />
+      <img src={hamburgerIcon} alt="Hamburger icon" />
     </header>
   )
 }
