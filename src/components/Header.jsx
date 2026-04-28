@@ -11,6 +11,7 @@ function Header() {
   return (
     <header className="relative flex justify-between items-center">
       <img src={logo} alt="Logo image" className="h-6" />
+      
       {!isMenuOpen ? (
         <button type="button" onClick={() => setIsMenuOpen(true)}>
           <img src={hamburgerIcon} alt="Hamburger icon" />
