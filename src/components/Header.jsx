@@ -9,7 +9,7 @@ function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="flex justify-between items-center">
+    <header className="relative flex justify-between items-center">
       <img src={logo} alt="Logo image" className="h-6" />
       {!isMenuOpen ? (
         <button type="button" onClick={() => setIsMenuOpen(true)}>
