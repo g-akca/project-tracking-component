@@ -9,9 +9,7 @@ function App() {
       <BackgroundMask />
 
       <Header />
-      
       <HeroImage />
-
       <MainSection />
     </div>
   )
