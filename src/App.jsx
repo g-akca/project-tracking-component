@@ -5,13 +5,13 @@ import MainSection from "./components/MainSection";
 
 function App() {
   return (
-    <div className="relative text-base leading-base text-blue-950 pt-9.5 pb-16 desktop:py-16 px-8 tablet:px-20 overflow-hidden">
+    <div className="relative text-base leading-base text-blue-950 pt-9.5 pb-16 desktop:pt-16 desktop:pb-28 px-8 tablet:px-20 overflow-hidden">
       <BackgroundMask />
 
       <div className="flex flex-col gap-16 tablet:gap-15.75 desktop:gap-31 max-w-277.5 mx-auto">
         <Header />
 
-        <div className="flex flex-col desktop:flex-row-reverse gap-21.75 tablet:gap-16">
+        <div className="flex flex-col gap-21.75 tablet:gap-16">
           <HeroImage />
           <MainSection />
         </div>

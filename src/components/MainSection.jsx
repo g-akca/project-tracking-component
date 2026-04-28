@@ -1,6 +1,6 @@
 function MainSection() {
   return (
-    <main className="flex flex-col gap-8 tablet:gap-16">
+    <main className="flex flex-col gap-8 tablet:gap-16 desktop:mt-10">
       <div className="flex flex-col gap-4 tablet:gap-8">
         <div className="flex flex-col gap-4">
           <div className="flex gap-4 items-center">
