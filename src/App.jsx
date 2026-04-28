@@ -5,7 +5,7 @@ import MainSection from "./components/MainSection";
 
 function App() {
   return (
-    <div className="relative text-base leading-base text-blue-950 py-9.5 px-8 overflow-hidden">
+    <div className="relative text-base leading-base text-blue-950 py-9.5 px-8 tablet:px-20 overflow-hidden">
       <BackgroundMask />
 
       <Header />
