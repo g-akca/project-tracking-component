@@ -14,9 +14,9 @@ function MainSection() {
         <p>Project planning and time tracking for agile teams</p>
       </div>
 
-      <div className="flex gap-4">
-        <button type="button">Schedule a Demo</button>
-        <p>To see a preview</p>
+      <div className="flex gap-4 items-center">
+        <button type="button" className="bg-red-400 text-white px-6 py-2 h-10 rounded-[5px] font-bold tracking-[1px] uppercase">Schedule a Demo</button>
+        <p className="text-blue-950 opacity-50 uppercase tracking-[2.5px]">To see a preview</p>
       </div>
     </main>
   )

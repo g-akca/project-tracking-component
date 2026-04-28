@@ -10,7 +10,7 @@
   --color-red-350: #FF8686;
 
   --font-barlow: "Barlow", sans-serif;
-  --font-cond: "Condensed Barlow", serif;
+  --font-cond: "Barlow Condensed", serif;
   --text-base: 15px;
   --leading-base: 120%;
 
@@ -19,5 +19,5 @@
 }
 
 :root {
-  font-family: "Condensed Barlow", serif;
+  font-family: "Barlow Condensed", serif;
 }
