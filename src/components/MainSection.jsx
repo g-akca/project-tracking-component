@@ -15,7 +15,7 @@ function MainSection() {
       </div>
 
       <div className="flex gap-4 tablet:gap-6 items-center">
-        <button type="button" className="bg-red-400 text-white px-6 tablet:px-8 py-2 tablet:py-4 h-10 tablet:h-12 tablet:w-46 rounded-[5px] font-bold tracking-[1px] uppercase">Schedule a Demo</button>
+        <button type="button" className="bg-red-400 text-white px-6 tablet:px-8 py-2 tablet:py-4 h-10 tablet:h-12 tablet:w-46 rounded-[5px] font-bold tracking-[1px] uppercase cursor-pointer trasition-all duration-300 hover:bg-red-350">Schedule a Demo</button>
         <p className="opacity-50 uppercase tracking-[2.5px] tablet:tracking-[5px]">To see a preview</p>
       </div>
     </main>
