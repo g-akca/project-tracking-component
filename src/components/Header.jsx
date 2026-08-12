@@ -19,6 +19,7 @@ function Header() {
         className="desktop:hidden cursor-pointer"
         aria-label={isMenuOpen ? "Close menu" : "Open menu"}
         aria-expanded={isMenuOpen}
+        aria-controls="mobile-menu"
       >
         <img
           src={isMenuOpen ? closeIcon : hamburgerIcon}
