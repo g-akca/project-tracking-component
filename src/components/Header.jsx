@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <header className="relative flex justify-between items-center">
-      <img src={logo} alt="Logo image" className="h-6 desktop:h-8" />
+      <img src={logo} alt="" className="h-6 desktop:h-8" />
       
       <button
         type="button"
