@@ -13,15 +13,17 @@ function Header() {
     <header className="relative flex justify-between items-center">
       <img src={logo} alt="Logo image" className="h-6 desktop:h-8" />
       
-      {!isMenuOpen ? (
-        <button type="button" onClick={() => setIsMenuOpen(true)} className="desktop:hidden cursor-pointer">
-          <img src={hamburgerIcon} alt="Hamburger icon" />
-        </button>
-      ) : (
-        <button type="button" onClick={() => setIsMenuOpen(false)} className="desktop:hidden cursor-pointer">
-          <img src={closeIcon} alt="Close icon" />
-        </button>
-      )}
+      <button
+        type="button"
+        onClick={() => setIsMenuOpen(prev => !prev)}
+        className="desktop:hidden cursor-pointer"
+        aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+      >
+        <img
+          src={isMenuOpen ? closeIcon : hamburgerIcon}
+          alt={isMenuOpen ? "Close menu" : "Open menu"}
+        />
+      </button>
 
       <Navbar />
 
