@@ -18,6 +18,7 @@ function Header() {
         onClick={() => setIsMenuOpen(prev => !prev)}
         className="desktop:hidden cursor-pointer"
         aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+        aria-expanded={isMenuOpen}
       >
         <img
           src={isMenuOpen ? closeIcon : hamburgerIcon}
