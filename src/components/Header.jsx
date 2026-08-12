@@ -21,7 +21,7 @@ function Header() {
       >
         <img
           src={isMenuOpen ? closeIcon : hamburgerIcon}
-          alt={isMenuOpen ? "Close menu" : "Open menu"}
+          alt=""
         />
       </button>
 
